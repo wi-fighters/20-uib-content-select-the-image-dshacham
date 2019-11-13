@@ -7,12 +7,24 @@
   }
   
   /* Task 1 */
-  
+  h3 {
+    color: blue;
+  }
   /* Task 2 */
-  
+  ol>li:nth-of-type(3), ol>li:nth-of-type(4),ol>li:nth-of-type(5) {
+    color: red;
+  }
   /* Task 3 */
-  
+  img+img {
+    border-color: chartreuse;
+    border-width: 10px;
+    border-style: solid;
+  }
   /* Task 4 */
-  
+  a[href$=".com"] {
+    background-color: yellow;
+  }
   /* Task 5 */
-  
+  #pink-text {
+    color: rgb(255, 112, 136);
+  }
